@@ -5,6 +5,7 @@
     <div class="container">
       <div id="swara">
         <form class="form">
+            <!-- here the user inputs the username of the repo he/she wants to see -->
             <input type="text" class="form-control" placeholder="Search Username" [(ngModel)]="userName" name="userName" (keyup)="findUser()">
         </form>
       </div>
@@ -17,7 +18,26 @@
         </div>
         <div class="card-body">
             <div class="row">
-
+                <div class="col-md-4">
+                    <!-- to get the image of the user searched -->
+                    <img class="img-thumnail" src="{{user1.avatar_url}}">
+                </div>
+                <div class="col-md-8">
+                    <!-- to show the details for example their followers,also repos a certain user has ever done -->
+                    <div class="first">
+                        <span class="badge badge-info">{{user1.public_repos}} Public Repos</span>
+                        <span class="badge badge-info">{{user1.followers}} Followers</span>
+                        <span class="badge badge-info">{{user1.following}} Following</span>
+                    </div>
+                    <br>
+                    <ul class="list-group">
+                        <li class="list-group-item" appHighlight></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                    </ul>
+                </div>
             </div>
         </div>
       </div>
