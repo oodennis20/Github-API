@@ -1,0 +1,25 @@
+<body>
+    <br>
+    <br>
+    <h1>GitHub Profile</h1>
+    <div class="container">
+      <div id="swara">
+        <form class="form">
+            <input type="text" class="form-control" placeholder="Search Username" [(ngModel)]="userName" name="userName" (keyup)="findUser()">
+        </form>
+      </div>
+      <br>
+      <br>
+
+      <div class="card" *ngIf="user1">
+        <div class="card-header">
+            <h2>{{user1.name}}</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
