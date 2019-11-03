@@ -5,6 +5,13 @@
 .card-header {
     text-align: center;
 }
-body{
-    background-color: rgb(70, 68, 67);
+#swara {
+    width: 60%;
+    margin: auto;
+}
+.first{
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
