@@ -25,6 +25,7 @@ import { RepoComponent } from './repo/repo.component';
     FormsModule,
     HttpClientModule,
     RoutingModule,
+    
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
