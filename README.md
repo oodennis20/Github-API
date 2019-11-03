@@ -9,7 +9,7 @@ The site displays github data searches upon request using a Github API
 4.The profile in the home page.
 5.click on interested repository in order to go to users repo.
 
-#Requirements
+# Requirements
 
 You will need to:
 
@@ -17,7 +17,7 @@ You will need to:
 2. Have a web browser
 3. Any text editor
 
-#Development server
+# Development server
 
 Run ng serve for a dev server.Navigate to  http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
