@@ -1,29 +1,36 @@
-# GithubAPI
+# GithubAPI app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.
+# About the App
+The site displays github data searches upon request using a Github API
 
-## Development server
+1.Key in username you want to find on Github.
+2.If you are on home page it responds and displays the username typed .
+3.If on repo page you see the repositories of the user searched for.
+4.The profile in the home page.
+5.click on interested repository in order to go to users repo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#Requirements
 
-## Code scaffolding
+You will need to:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Have Angular-cli and Node-js installed
+2. Have a web browser
+3. Any text editor
 
-## Build
+#Development server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run ng serve for a dev server.Navigate to  http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1.HTML
+2.CSS
+3.JavaScript
+4.Angular 8
+5.TS
+6.Bootstrap
 
-## Running end-to-end tests
+## License and terms of use
+MIT Licence the applications source code is free for any open source project
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# GithubAPI
-# Github-API
+©Dennis Otieno 2019 | Moringa School

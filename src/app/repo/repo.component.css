@@ -1,3 +1,16 @@
 body{
-    background-color: grey;
+    background-color: rgba(37, 35, 35, 0.747);
+}
+h1{
+    text-align: center;
+}
+#swara {
+    width: 40%;
+    margin: auto;
+}
+.card-header{
+    text-align: center;
+}
+.card{
+  text-align: center;
 }

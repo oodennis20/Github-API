@@ -6,7 +6,7 @@
     text-align: center;
 }
 #swara {
-    width: 60%;
+    width: 49.8%;
     margin: auto;
 }
 .first{
@@ -14,4 +14,10 @@
 }
 h1{
     text-align: center;
+}
+body{
+    background-color: rgba(37, 35, 35, 0.747);
+}
+.row{
+    margin: 2px;
 }
